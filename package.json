@@ -1,0 +1,24 @@
+{
+  "name": "Apollo-server-2.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production node -r esm",
+    "dev": "set NODE_ENV=development&&nodemon -r esm"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.9.7",
+    "bcryptjs": "^2.4.3",
+    "connect-redis": "^4.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "graphql": "^14.5.8",
+    "joi": "^14.3.1",
+    "mongoose": "^5.7.10",
+    "nodemon": "^1.19.4",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {}
+}
